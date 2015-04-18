@@ -1,6 +1,7 @@
 #PNChart
 
 [![Build Status](https://travis-ci.org/kevinzhow/PNChart.png?branch=master)](https://travis-ci.org/kevinzhow/PNChart)
+[![Coverage Status](https://coveralls.io/repos/viktorasl/PNChart/badge.svg)](https://coveralls.io/r/viktorasl/PNChart)
 
 You can also find swift version at here https://github.com/kevinzhow/PNChart-Swift
 
