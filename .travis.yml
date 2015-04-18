@@ -1,3 +1,5 @@
 language: objective-c
 script:
     - xctool test -workspace PNChartDemo.xcworkspace -scheme PNChartTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO GCC_GENERATE_TEST_COVERAGE_FILES=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES
+after_success:
+    - coveralls
