@@ -1,6 +1,2 @@
 language: objective-c
-xcode_workspace: PNChartDemo.xcworkspace
-xcode_scheme: PNChartTests
-matrix:
-    include:
-        - xcode_sdk: iphonesimulator
+script: xcodebuild -workspace PNChartDemo.xcworkspace -scheme PNChartTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
