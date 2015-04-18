@@ -49,7 +49,7 @@
     self.barChart.yLabelFormatter = ^(CGFloat value) {
         return [NSString stringWithFormat:@"Value %zi", (NSUInteger)value];
     };
-    self.barChart.yValues = @[@1, @10, @5, @4, @7];
+    self.barChart.yValues = @[@1, @12, @5, @4, @7];
     NSArray *expectedResults = @[@10, @8, @6, @5, @3, @1];
     for (NSUInteger idx = 0; idx < 4; idx++) {
         UILabel *yAxisLabel = self.barChart.subviews[idx];
